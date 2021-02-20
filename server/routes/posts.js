@@ -1,4 +1,4 @@
-const { getPosts } = require('../controllers/posts.js')
+const { getPosts, createPost } = require('../controllers/posts.js')
 const express = require('express');
 
 const router = express.Router();
